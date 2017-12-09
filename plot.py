@@ -36,3 +36,6 @@ for i in range(0,len(urls)):
 #diagonal number should be 1
 for i in range(0,len(urls)):
 	relation_matrix[i][i] = 1
+
+#save the matrix
+np.savetxt('result_matrix.txt',relation_matrix)
