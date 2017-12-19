@@ -35,10 +35,6 @@ def find_url(url):
 		websites.append(url)
 	
 
-#text = 'http://baidu.com/1.html \n<>KLKJKJuhhulkj s,https://dsasdf.dsf.c.cdsaf.com/sdfasdf.htm'
-#find_all_url(text)
-
-#def append_url(
 
 if __name__ =='__main__':
 	init_url = 'http://www.sjtu.edu.cn/'
